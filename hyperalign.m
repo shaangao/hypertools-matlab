@@ -96,7 +96,7 @@ for s = 1:length(varargin)
 end
 template = template./length(varargin);
 
-%step 2: align each pattern to the common template template and compute a
+%step 2: align each pattern to the common template and compute a
 %new common template
 template2 = zeros(size(template));
 for s = 1:length(varargin)
